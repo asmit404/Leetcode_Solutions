@@ -6,6 +6,7 @@ Solved On   : 19 Aug 2023
 Solved Using    : Python3
 """
 
+from typing import List
 from collections import defaultdict
 class Union:
     def __init__(self, n):
