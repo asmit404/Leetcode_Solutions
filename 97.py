@@ -6,13 +6,12 @@ Solved On   : 25 Aug 2023
 Solved Using    : Python3
 """
 
+from functools import cache
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
         if len(s1) + len(s2) != len(s3):
             return False
-
         i, j = 0, 0
-
         @cache
         def dfs(i, j):
             if i == len(s1) and j == len(s2):
@@ -22,7 +21,6 @@ class Solution:
             if j < len(s2) and s2[j] == s3[i + j] and dfs(i, j + 1):
                 return True
             return False
-
         return dfs(0, 0)
 
 # Time Complexity  : O(m * n)
