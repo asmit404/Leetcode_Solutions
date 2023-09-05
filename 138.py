@@ -41,3 +41,6 @@ class Solution:
             copy = copy.next
 
         return copy_root.next
+
+# Time Complexity  : O(n)
+# Space Complexity : O(n)
