@@ -2,7 +2,7 @@
 Title       : 725. Split Linked List in Parts
 Difficulty  : Medium
 Author      : Asmit Singh
-Solved On   : 5 Sept 2023
+Solved On   : 6 Sept 2023
 Solved Using    : Python3
 """
 
