@@ -2,7 +2,7 @@
 Title       : 4. Median of Two Sorted Arrays
 Difficulty  : Medium
 Author      : Asmit Singh
-Solved On   : 20 Sept 2023
+Solved On   : 21 Sept 2023
 Solved Using    : Python3
 """
 
