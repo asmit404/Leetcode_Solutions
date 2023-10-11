@@ -2,7 +2,7 @@
 Title       : 2009. Minimum Number of Operations to Make Array Continuous
 Difficulty  : Hard
 Author      : Asmit Singh
-Solved On   : 9 Oct 2023
+Solved On   : 10 Oct 2023
 Solved Using    : Python3
 """
 
