@@ -23,5 +23,6 @@ class Solution:
                 dq.popleft()
         return max(nums)
 
+# Beat 100% submissions in runtime.
 # Time Complexity  : O(n)
 # Space Complexity : O(k)
