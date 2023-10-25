@@ -15,5 +15,6 @@ class Solution:
             k >>= 1
         return res
 
+# Beat 100% submissions in runtime and memory usage.
 # Time Complexity  : O(log k)
 # Space Complexity : O(1)
