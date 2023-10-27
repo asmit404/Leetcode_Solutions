@@ -18,5 +18,6 @@ class Solution:
                 start, size = l, size + 1
         return s[start:start+size]
 
+# Beat 100% submissions in runtime.
 # Time Complexity  : O(n^2)
 # Space Complexity : O(1)
