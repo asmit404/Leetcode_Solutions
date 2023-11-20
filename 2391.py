@@ -28,5 +28,6 @@ class Solution:
 
         return len("".join(garbage)) + ans
 
+# Beat 100% of submissions in runtime.
 # Time Complexity : O(n^2)?
 # Space Complexity : O(n)?
