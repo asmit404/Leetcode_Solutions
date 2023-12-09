@@ -9,7 +9,6 @@ Solved Using    : Python3
 class Solution:
     def inorderTraversal(self, root):
         res = []
-
         def helper(node):
             if node:
                 helper(node.left)
